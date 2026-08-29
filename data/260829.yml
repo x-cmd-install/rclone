@@ -1,0 +1,66 @@
+about:
+  description: "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
+  license: MIT
+  homepage: https://rclone.org
+  head: 55fa9b6
+  archived: false
+  latestVersion: v1.75.0
+  collectedAt: 2026-08-29T07:28:25Z
+timeline:
+  created: 2014-03-16
+  lastCommit: 2026-08-28
+  lastRelease: 2026-07-31
+popularity:
+  star: 59437
+  watcher: 564
+  fork: 5344
+  release: 131
+  contributor: 1006
+  pullRequest: 1028
+  issue: 6191
+language:
+  Go: 9460912
+  Shell: 52154
+  Python: 50138
+  HTML: 36550
+  JavaScript: 21079
+  Makefile: 13360
+  Dockerfile: 3556
+  C: 3300
+  Go Template: 2521
+  PHP: 2519
+  Batchfile: 616
+totalLine: 9646705
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 41
+    openPR: 44
+    closedIssue: 13
+    openIssue: 25
+    commit: 164
+  last90d:
+    since: 2026-05-31
+    release: 3
+    mergedPR: 110
+    openPR: 91
+    closedIssue: 68
+    openIssue: 62
+    commit: 424
+  last180d:
+    since: 2026-03-02
+    release: 10
+    mergedPR: 193
+    openPR: 134
+    closedIssue: 122
+    openIssue: 107
+    commit: 709
+  last360d:
+    since: 2025-09-03
+    release: 16
+    mergedPR: 360
+    openPR: 181
+    closedIssue: 208
+    openIssue: 189
+    commit: 1154
