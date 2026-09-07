@@ -5,19 +5,19 @@ about:
   head: 3d7b101
   archived: false
   latestVersion: "v1.75.1"
-  collectedAt: 2026-09-07T05:04:09Z
+  collectedAt: 2026-09-07T19:18:05Z
 timeline:
   created: 2014-03-16
   lastCommit: 2026-09-05
   lastRelease: 2026-09-04
 popularity:
-  star: 59611
+  star: 59635
   watcher: 569
-  fork: 5371
+  fork: 5374
   release: 132
   contributor: 1008
   pullRequest: 3565
-  issue: 6206
+  issue: 6207
 language:
   Go: 9598353
   Shell: 52334
@@ -38,7 +38,7 @@ recent:
     mergedPR: 30
     openPR: 50
     closedIssue: 11
-    openIssue: 30
+    openIssue: 31
     commit: 164
   last60d:
     since: 2026-07-09
@@ -46,7 +46,7 @@ recent:
     mergedPR: 81
     openPR: 80
     closedIssue: 47
-    openIssue: 56
+    openIssue: 57
     commit: 346
   last90d:
     since: 2026-06-09
@@ -54,7 +54,7 @@ recent:
     mergedPR: 116
     openPR: 94
     closedIssue: 66
-    openIssue: 69
+    openIssue: 70
     commit: 481
   last180d:
     since: 2026-03-11
@@ -62,7 +62,7 @@ recent:
     mergedPR: 190
     openPR: 147
     closedIssue: 120
-    openIssue: 112
+    openIssue: 113
     commit: 764
   last360d:
     since: 2025-09-12
@@ -70,7 +70,7 @@ recent:
     mergedPR: 355
     openPR: 195
     closedIssue: 208
-    openIssue: 195
+    openIssue: 196
     commit: 1201
   last720d:
     since: 2024-09-17
@@ -78,18 +78,18 @@ recent:
     mergedPR: 589
     openPR: 249
     closedIssue: 477
-    openIssue: 299
+    openIssue: 300
     commit: 2005
 total:
   release: 132
   mergedPR: 2518
   openPR: 279
   closedIssue: 5216
-  openIssue: 990
+  openIssue: 991
   commit: 10312
 ---
 path: /home/runner/.x-repo/github.com/rclone/rclone
-collectedAt: 2026-09-07T05:04:39Z
+collectedAt: 2026-09-07T19:18:32Z
 loc:
   Go:
     code: 302357
@@ -345,7 +345,7 @@ checks:
       - 'Info:   1 out of   5 goCommand dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T05:04:40+00:00
+  collectedAt: 2026-09-07T19:18:34+00:00
   platform:
     darwin/arm64:
       name:  rclone-v1.75.1-osx-arm64.zip
