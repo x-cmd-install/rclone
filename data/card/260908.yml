@@ -5,18 +5,18 @@ about:
   head: 3d7b101
   archived: false
   latestVersion: "v1.75.1"
-  collectedAt: 2026-09-08T02:27:16Z
+  collectedAt: 2026-09-08T04:55:15Z
 timeline:
   created: 2014-03-16
   lastCommit: 2026-09-05
   lastRelease: 2026-09-04
 popularity:
-  star: 59636
+  star: 59638
   watcher: 569
-  fork: 5373
+  fork: 5375
   release: 132
   contributor: 1008
-  pullRequest: 3565
+  pullRequest: 3566
   issue: 6207
 language:
   Go: 9598353
@@ -36,7 +36,7 @@ recent:
     since: 2026-08-09
     release: 1
     mergedPR: 27
-    openPR: 49
+    openPR: 50
     closedIssue: 11
     openIssue: 30
     commit: 164
@@ -44,7 +44,7 @@ recent:
     since: 2026-07-10
     release: 2
     mergedPR: 80
-    openPR: 80
+    openPR: 81
     closedIssue: 47
     openIssue: 57
     commit: 346
@@ -52,7 +52,7 @@ recent:
     since: 2026-06-10
     release: 3
     mergedPR: 116
-    openPR: 93
+    openPR: 94
     closedIssue: 65
     openIssue: 69
     commit: 481
@@ -60,7 +60,7 @@ recent:
     since: 2026-03-12
     release: 10
     mergedPR: 189
-    openPR: 146
+    openPR: 147
     closedIssue: 118
     openIssue: 112
     commit: 764
@@ -68,7 +68,7 @@ recent:
     since: 2025-09-13
     release: 17
     mergedPR: 355
-    openPR: 195
+    openPR: 196
     closedIssue: 206
     openIssue: 196
     commit: 1201
@@ -76,20 +76,20 @@ recent:
     since: 2024-09-18
     release: 28
     mergedPR: 587
-    openPR: 249
+    openPR: 250
     closedIssue: 475
     openIssue: 300
     commit: 1994
 total:
   release: 132
   mergedPR: 2518
-  openPR: 279
+  openPR: 280
   closedIssue: 5216
   openIssue: 991
   commit: 10312
 ---
 path: /home/runner/.x-repo/github.com/rclone/rclone
-collectedAt: 2026-09-08T02:27:49Z
+collectedAt: 2026-09-08T04:55:46Z
 loc:
   Go:
     code: 302357
