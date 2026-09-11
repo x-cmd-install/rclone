@@ -1,36 +1,15 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: rclone
+- repo: pkgsrc_current
+  srcname: net/rclone
   binname: rclone
-  visiblename: rclone
+  visiblename: net/rclone
   version: 1.75.1
-  origversion: 1.75.1-1
+  origversion: null
   status: newest
-  summary: rsync for cloud storage
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: rclone
-  binname: rclone
-  visiblename: rclone
-  version: 1.75.1
-  origversion: 1.75.1-1
-  status: newest
-  summary: rsync for cloud storage
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: rclone
-  binname: rclone
-  visiblename: rclone
-  version: 1.75.1
-  origversion: 1.75.1-1
-  status: newest
-  summary: rsync for cloud storage
-  licenses:
-    - MIT
+  summary: Rsync for cloud storage
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - net
 - repo: aerynos
   srcname: rclone
   visiblename: rclone
@@ -159,8 +138,8 @@
   srcname: rclone-beta-bin
   binname: rclone-beta-bin
   visiblename: rclone-beta-bin
-  version: 1.76.0_beta.10345.7b3a4e514
-  origversion: 1.76.0_beta.10345.7b3a4e514-1
+  version: 1.76.0_beta.10346.c3ba18461
+  origversion: 1.76.0_beta.10346.c3ba18461-1
   status: ignored
   summary: Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage. (Beta version)
   maintainers:
@@ -305,6 +284,16 @@
   origversion: null
   status: rolling
   summary: Rsync for cloud storage
+- repo: msys2_clangarm64
+  srcname: mingw-w64-rclone
+  binname: mingw-w64-clang-aarch64-rclone
+  visiblename: mingw-w64-clang-aarch64-rclone
+  version: 1.75.1
+  origversion: 1.75.1-1
+  status: newest
+  summary: Cloud-aware file synchronization utility (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: macports
   srcname: net/rclone
   binname: rclone
@@ -319,6 +308,39 @@
     - MIT
   categories:
     - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.75.1
+  origversion: 1.75.1-1
+  status: newest
+  summary: rsync for cloud storage
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.75.1
+  origversion: 1.75.1-1
+  status: newest
+  summary: rsync for cloud storage
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.75.1
+  origversion: 1.75.1-1
+  status: newest
+  summary: rsync for cloud storage
+  licenses:
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-rclone
   binname: mingw-w64-clang-x86_64-librclone
@@ -333,16 +355,6 @@
   srcname: mingw-w64-rclone
   binname: mingw-w64-clang-x86_64-rclone
   visiblename: mingw-w64-clang-x86_64-rclone
-  version: 1.75.1
-  origversion: 1.75.1-1
-  status: newest
-  summary: Cloud-aware file synchronization utility (mingw-w64)
-  licenses:
-    - spdx:MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-rclone
-  binname: mingw-w64-clang-aarch64-rclone
-  visiblename: mingw-w64-clang-aarch64-rclone
   version: 1.75.1
   origversion: 1.75.1-1
   status: newest
@@ -370,6 +382,22 @@
   summary: Cloud-aware file synchonization library (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: openmandriva_cooker
+  subrepo: unsupported/release
+  srcname: rclone
+  binnames:
+    - rclone
+  visiblename: rclone
+  version: 1.75.0
+  origversion: 1.75.0-1
+  status: outdated
+  summary: Rsync for cloud storage
+  maintainers:
+    - vuatech@proton.me
+  licenses:
+    - MIT AND BSD-3-Clause
+  categories:
+    - Backup
 - repo: msys2_mingw
   subrepo: x86_64
   srcname: mingw-w64-rclone
@@ -451,22 +479,6 @@
     - MIT
   categories:
     - Applications/Networking
-- repo: openmandriva_cooker
-  subrepo: unsupported/release
-  srcname: rclone
-  binnames:
-    - rclone
-  visiblename: rclone
-  version: 1.75.0
-  origversion: 1.75.0-1
-  status: outdated
-  summary: Rsync for cloud storage
-  maintainers:
-    - vuatech@proton.me
-  licenses:
-    - MIT AND BSD-3-Clause
-  categories:
-    - Backup
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: rclone
@@ -502,6 +514,18 @@
     - MIT
   categories:
     - Productivity/Networking/Web/Utilities
+- repo: openpkg_current
+  srcname: rclone
+  visiblename: rclone
+  version: 1.72.1.20251210
+  origversion: null
+  status: outdated
+  summary: Cloud Filesystem Cloing
+  licenses:
+    - MIT
+  categories:
+    - Filesystem
+  vulnerable: true
 - repo: parabola
   subrepo: extra
   srcname: rclone
@@ -513,18 +537,6 @@
   summary: rsync for cloud storage
   licenses:
     - MIT
-- repo: pkgsrc_current
-  srcname: net/rclone
-  binname: rclone
-  visiblename: net/rclone
-  version: 1.75.1
-  origversion: null
-  status: newest
-  summary: Rsync for cloud storage
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - net
 - repo: rosa_13
   subrepo: contrib/release
   srcname: rclone
@@ -554,7 +566,7 @@
   subrepo: versions
   binname: rclone-beta
   visiblename: rclone-beta
-  version: 1.76.0-beta.10345.7b3a4e514
+  version: 1.76.0-beta.10346.c3ba18461
   origversion: null
   status: untrusted
   licenses:
@@ -691,46 +703,36 @@
   summary: cloud storage management software
   licenses:
     - MIT License
-- repo: raspbian_stable
-  subrepo: main
+- repo: amazon_2
   srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
   visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-4
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.9
   status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
   categories:
-    - misc
+    - Unspecified
   vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
+- repo: amazon_2
   srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
   visiblename: rclone
-  version: 1.69.3
-  origversion: 1.69.3+dfsg-3
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2
   status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
   categories:
-    - misc
+    - Unspecified
   vulnerable: true
 - repo: wakemeops
   subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.73.3
-  origversion: 1.73.3-2~ops2deb
+  version: 1.73.5
+  origversion: 1.73.5-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -739,8 +741,8 @@
   subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.73.5
-  origversion: 1.73.5-2~ops2deb
+  version: 1.73.3
+  origversion: 1.73.3-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -759,8 +761,8 @@
   subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.73.1
-  origversion: 1.73.1-2~ops2deb
+  version: 1.73.0
+  origversion: 1.73.0-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -769,8 +771,8 @@
   subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.73.0
-  origversion: 1.73.0-2~ops2deb
+  version: 1.73.1
+  origversion: 1.73.1-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -819,161 +821,358 @@
   subrepo: devops
   binname: rclone
   visiblename: rclone
+  version: 1.71.0
+  origversion: 1.71.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.70.3
+  origversion: 1.70.3-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
   version: 1.70.2
   origversion: 1.70.2-2~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
   vulnerable: true
-- repo: amazon_2
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.70.1
+  origversion: 1.70.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.70.0
+  origversion: 1.70.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.69.3
+  origversion: 1.69.3-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.69.2
+  origversion: 1.69.2-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.69.1
+  origversion: 1.69.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.69.0
+  origversion: 1.69.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.68.2
+  origversion: 1.68.2-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.68.1
+  origversion: 1.68.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.68.0
+  origversion: 1.68.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.67.0
+  origversion: 1.67.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.66.0
+  origversion: 1.66.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.65.2
+  origversion: 1.65.2-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.65.1
+  origversion: 1.65.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.65.0
+  origversion: 1.65.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.64.2
+  origversion: 1.64.2-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.64.1
+  origversion: 1.64.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.64.0
+  origversion: 1.64.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.63.1
+  origversion: 1.63.1-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.63.0
+  origversion: 1.63.0-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.62.2
+  origversion: 1.62.2-2~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
   srcname: rclone
   visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.8
+  version: 1.61.1
+  origversion: 1.61.1-bp155.1.7
   status: outdated
   summary: Rsync for cloud storage
   licenses:
     - MIT
   categories:
-    - Unspecified
+    - Productivity/Networking/Web/Utilities
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: rclone
-  binname: rclone-zsh-completion
-  visiblename: rclone-zsh-completion
-  version: 1.60.1
-  origversion: 1.60.1-r4
-  status: outdated
-  summary: Zsh completions for rclone
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: rclone
-  binname: rclone-doc
-  visiblename: rclone-doc
-  version: 1.60.1
-  origversion: 1.60.1-r4
-  status: outdated
-  summary: Rsync for cloud storage (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: rclone
-  binname: rclone-fish-completion
-  visiblename: rclone-fish-completion
-  version: 1.60.1
-  origversion: 1.60.1-r4
-  status: outdated
-  summary: Fish completions for rclone
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: rclone
+- repo: wakemeops
+  subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1-r4
-  status: outdated
-  summary: Rsync for cloud storage
+  version: 1.62.1
+  origversion: 1.62.1-2~ops2deb
+  status: legacy
   maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: rclone
-  binname: rclone-bash-completion
-  visiblename: rclone-bash-completion
-  version: 1.60.1
-  origversion: 1.60.1-r4
-  status: outdated
-  summary: Bash completions for rclone
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.62.0
+  origversion: 1.62.0-2~ops2deb
+  status: legacy
   maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
-- repo: amazon_2
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: rclone
   visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.10
-  status: outdated
+  version: 1.63.1
+  origversion: 1.63.1-bp156.1.15
+  status: legacy
   summary: Rsync for cloud storage
   licenses:
     - MIT
   categories:
-    - Unspecified
+    - Productivity/Networking/Web/Utilities
   vulnerable: true
-- repo: alpine_3_18
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.53.3
+  origversion: 1.53.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - toddy@debian.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: pld
+  srcname: rclone
+  visiblename: rclone
+  version: 1.74.0
+  origversion: 1.74.0-1
+  status: outdated
+  vulnerable: true
+- repo: deepin_23
   subrepo: community
   srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: rclone
+  binnames:
+    - golang-github-ncw-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: "1.45"
+  origversion: 1.45-3
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - toddy@debian.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: deepin_25
+  subrepo: community
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
   binname: rclone
   visiblename: rclone
-  version: 1.62.2
-  origversion: 1.62.2-r6
-  status: outdated
-  summary: Rsync for cloud storage
+  version: 1.61.1
+  origversion: 1.61.1-2~ops2deb
+  status: legacy
   maintainers:
-    - mike@crute.us
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: rclone
-  binname: rclone-bash-completion
-  visiblename: rclone-bash-completion
-  version: 1.62.2
-  origversion: 1.62.2-r6
-  status: outdated
-  summary: Bash completions for rclone
-  maintainers:
-    - mike@crute.us
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: rclone
-  binname: rclone-doc
-  visiblename: rclone-doc
-  version: 1.62.2
-  origversion: 1.62.2-r6
-  status: outdated
-  summary: Rsync for cloud storage (documentation)
-  maintainers:
-    - mike@crute.us
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: rclone
-  binname: rclone-fish-completion
-  visiblename: rclone-fish-completion
-  version: 1.62.2
-  origversion: 1.62.2-r6
-  status: outdated
-  summary: Fish completions for rclone
-  maintainers:
-    - mike@crute.us
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
   vulnerable: true
 - repo: alpine_3_18
   subrepo: community
@@ -988,6 +1187,32 @@
     - mike@crute.us
   licenses:
     - MIT
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.61.0
+  origversion: 1.61.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.53.3
+  origversion: 1.53.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - toddy@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: alpine_3_19
   subrepo: community
@@ -998,6 +1223,312 @@
   origversion: 1.65.0-r3
   status: outdated
   summary: Rsync for cloud storage
+  maintainers:
+    - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: wakemeops
+  subrepo: devops
+  binname: rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: chimera
+  subrepo: user
+  srcname: rclone
+  binname: rclone-doc
+  visiblename: rclone-doc
+  version: 1.73.5
+  origversion: 1.73.5-r4
+  status: outdated
+  summary: Rsync for cloud storage (documentation)
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: epel_7
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.el7
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.69.3
+  origversion: 1.69.3+dfsg-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.50.2
+  origversion: 1.50.2-2
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: rclone
+  binname: rclone-doc
+  visiblename: rclone-doc
+  version: 1.72.1
+  origversion: 1.72.1-r4
+  status: outdated
+  summary: Rsync for cloud storage (documentation)
+  maintainers:
+    - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: trisquel_11_0
+  subrepo: aramo-updates/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.53.3
+  origversion: 1.53.3-4ubuntu1.22.04.5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: trisquel_11_0
+  subrepo: aramo-security/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.53.3
+  origversion: 1.53.3-4ubuntu1.22.04.5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.53.3
+  origversion: 1.53.3-4ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rclone
+  binname: rclone-zsh-completion
+  visiblename: rclone-zsh-completion
+  version: 1.60.1
+  origversion: 1.60.1-r4
+  status: outdated
+  summary: Zsh completions for rclone
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rclone
+  binname: rclone-doc
+  visiblename: rclone-doc
+  version: 1.60.1
+  origversion: 1.60.1-r4
+  status: outdated
+  summary: Rsync for cloud storage (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rclone
+  binname: rclone-fish-completion
+  visiblename: rclone-fish-completion
+  version: 1.60.1
+  origversion: 1.60.1-r4
+  status: outdated
+  summary: Fish completions for rclone
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1-r4
+  status: outdated
+  summary: Rsync for cloud storage
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rclone
+  binname: rclone-bash-completion
+  visiblename: rclone-bash-completion
+  version: 1.60.1
+  origversion: 1.60.1-r4
+  status: outdated
+  summary: Bash completions for rclone
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.62.2
+  origversion: 1.62.2-r6
+  status: outdated
+  summary: Rsync for cloud storage
+  maintainers:
+    - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: rclone
+  binname: rclone-bash-completion
+  visiblename: rclone-bash-completion
+  version: 1.62.2
+  origversion: 1.62.2-r6
+  status: outdated
+  summary: Bash completions for rclone
+  maintainers:
+    - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: rclone
+  binname: rclone-doc
+  visiblename: rclone-doc
+  version: 1.62.2
+  origversion: 1.62.2-r6
+  status: outdated
+  summary: Rsync for cloud storage (documentation)
+  maintainers:
+    - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: rclone
+  binname: rclone-fish-completion
+  visiblename: rclone-fish-completion
+  version: 1.62.2
+  origversion: 1.62.2-r6
+  status: outdated
+  summary: Fish completions for rclone
   maintainers:
     - mike@crute.us
   licenses:
@@ -1072,42 +1603,6 @@
     - mike@crute.us
   licenses:
     - MIT
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.2
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.3
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.9
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: alpine_3_20
   subrepo: community
@@ -1190,6 +1685,18 @@
   summary: Bash completions for rclone
   maintainers:
     - mike@crute.us
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: chimera
+  subrepo: user
+  srcname: rclone
+  binname: rclone
+  visiblename: rclone
+  version: 1.73.5
+  origversion: 1.73.5-r4
+  status: outdated
+  summary: Rsync for cloud storage
   licenses:
     - MIT
   vulnerable: true
@@ -1248,42 +1755,6 @@
     - mike@crute.us
   licenses:
     - MIT
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.4
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.5
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.6
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: alpine_3_22
   subrepo: community
@@ -1369,17 +1840,15 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
+- repo: chimera
+  subrepo: user
   srcname: rclone
-  binname: rclone-doc
-  visiblename: rclone-doc
-  version: 1.72.1
-  origversion: 1.72.1-r4
+  binname: rclone-bashcomp
+  visiblename: rclone-bashcomp
+  version: 1.73.5
+  origversion: 1.73.5-r4
   status: outdated
-  summary: Rsync for cloud storage (documentation)
-  maintainers:
-    - mike@crute.us
+  summary: Rsync for cloud storage (bash completions)
   licenses:
     - MIT
   vulnerable: true
@@ -1424,18 +1893,6 @@
     - mike@crute.us
   licenses:
     - MIT
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2.0.7
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: alpine_3_24
   subrepo: community
@@ -1522,41 +1979,101 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: chimera
-  subrepo: user
+- repo: amazon_2
   srcname: rclone
-  binname: rclone
   visiblename: rclone
-  version: 1.73.5
-  origversion: 1.73.5-r4
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.10
   status: outdated
   summary: Rsync for cloud storage
   licenses:
     - MIT
+  categories:
+    - Unspecified
   vulnerable: true
-- repo: chimera
-  subrepo: user
+- repo: amazon_2
   srcname: rclone
-  binname: rclone-bashcomp
-  visiblename: rclone-bashcomp
-  version: 1.73.5
-  origversion: 1.73.5-r4
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.2
   status: outdated
-  summary: Rsync for cloud storage (bash completions)
+  summary: Rsync for cloud storage
   licenses:
     - MIT
+  categories:
+    - Unspecified
   vulnerable: true
-- repo: chimera
-  subrepo: user
+- repo: amazon_2
   srcname: rclone
-  binname: rclone-doc
-  visiblename: rclone-doc
-  version: 1.73.5
-  origversion: 1.73.5-r4
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.3
   status: outdated
-  summary: Rsync for cloud storage (documentation)
+  summary: Rsync for cloud storage
   licenses:
     - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.4
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.5
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.6
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.7
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rclone
+  visiblename: rclone
+  version: 1.55.1
+  origversion: 1.55.1-1.amzn2.0.8
+  status: outdated
+  summary: Rsync for cloud storage
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: chimera
   subrepo: user
@@ -1683,54 +2200,6 @@
     - pkg-go-maintainers@lists.alioth.debian.org
     - toddy@debian.org
   vulnerable: true
-- repo: deepin_23
-  subrepo: community
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: deepin_25
-  subrepo: community
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.53.3
-  origversion: 1.53.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - toddy@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: rclone
@@ -1747,18 +2216,6 @@
     - toddy@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: epel_7
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.el7
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: epel_9
   srcname: rclone
@@ -2028,19 +2485,6 @@
   categories:
     - net-misc
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rclone
-  visiblename: rclone
-  version: 1.61.1
-  origversion: 1.61.1-bp155.1.7
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Networking/Web/Utilities
-  vulnerable: true
 - repo: liguros_stable
   srcname: net-misc/rclone
   visiblename: net-misc/rclone
@@ -2081,22 +2525,6 @@
   categories:
     - net-misc
   vulnerable: true
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.50.2
-  origversion: 1.50.2-2
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - toddy@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
 - repo: liguros_develop
   srcname: net-misc/rclone
   visiblename: net-misc/rclone
@@ -2116,18 +2544,6 @@
     - MPL-2.0
   categories:
     - net-misc
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: rclone
-  visiblename: rclone
-  version: 1.72.1
-  origversion: null
-  status: outdated
-  summary: Command line program to sync files and directories to and from major cloud storage
-  maintainers:
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
   vulnerable: true
 - repo: liguros_develop
   srcname: net-misc/rclone
@@ -2208,6 +2624,23 @@
     - MPL-2.0
   categories:
     - net-misc
+  vulnerable: true
+- repo: openmandriva_rolling
+  subrepo: unsupported/release
+  srcname: rclone
+  binnames:
+    - rclone
+  visiblename: rclone
+  version: 1.72.0
+  origversion: 1.72.0-1
+  status: outdated
+  summary: Rsync for cloud storage
+  maintainers:
+    - azure.grade9592@eagereverest.com
+  licenses:
+    - MIT AND BSD-3-Clause
+  categories:
+    - Backup
   vulnerable: true
 - repo: mageia_10
   subrepo: core/release
@@ -2323,6 +2756,18 @@
   licenses:
     - MIT
   vulnerable: true
+- repo: nix_stable_25_11
+  srcname: rclone
+  visiblename: rclone
+  version: 1.72.1
+  origversion: null
+  status: outdated
+  summary: Command line program to sync files and directories to and from major cloud storage
+  maintainers:
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: unsupported/updates
   srcname: rclone
@@ -2339,58 +2784,6 @@
     - MIT AND BSD-3-Clause
   categories:
     - Backup
-  vulnerable: true
-- repo: openmandriva_rolling
-  subrepo: unsupported/release
-  srcname: rclone
-  binnames:
-    - rclone
-  visiblename: rclone
-  version: 1.72.0
-  origversion: 1.72.0-1
-  status: outdated
-  summary: Rsync for cloud storage
-  maintainers:
-    - azure.grade9592@eagereverest.com
-  licenses:
-    - MIT AND BSD-3-Clause
-  categories:
-    - Backup
-  vulnerable: true
-- repo: openpkg_current
-  srcname: rclone
-  visiblename: rclone
-  version: 1.72.1.20251210
-  origversion: null
-  status: outdated
-  summary: Cloud Filesystem Cloing
-  licenses:
-    - MIT
-  categories:
-    - Filesystem
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.70.3
-  origversion: 1.70.3-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: rclone
-  visiblename: rclone
-  version: 1.63.1
-  origversion: 1.63.1-bp156.1.15
-  status: legacy
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Networking/Web/Utilities
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/backports
@@ -2573,79 +2966,6 @@
   categories:
     - net
   vulnerable: true
-- repo: pld
-  srcname: rclone
-  visiblename: rclone
-  version: 1.74.0
-  origversion: 1.74.0-1
-  status: outdated
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: rclone
-  binnames:
-    - golang-github-ncw-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: "1.45"
-  origversion: 1.45-3
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - toddy@debian.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.53.3
-  origversion: 1.53.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - toddy@debian.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-4
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: rclone
@@ -2706,54 +3026,6 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: trisquel_11_0
-  subrepo: aramo-updates/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.53.3
-  origversion: 1.53.3-4ubuntu1.22.04.5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - toddy@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: trisquel_11_0
-  subrepo: aramo-security/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.53.3
-  origversion: 1.53.3-4ubuntu1.22.04.5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - toddy@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: trisquel_11_0
-  subrepo: aramo/main
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.53.3
-  origversion: 1.53.3-4ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - toddy@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
 - repo: wakemeops
   subrepo: devops
   binname: rclone
@@ -2763,22 +3035,6 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: rclone
-  binnames:
-    - rclone
-    - golang-github-ncw-rclone-dev
-  visiblename: rclone
-  version: "1.36"
-  origversion: 1.36-3
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - toddy@debian.org
-  categories:
-    - universe/misc
   vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic-updates/universe
@@ -2796,15 +3052,15 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: rclone
   binnames:
-    - golang-github-rclone-rclone-dev
     - rclone
+    - golang-github-ncw-rclone-dev
   visiblename: rclone
-  version: 1.50.2
-  origversion: 1.50.2-2
+  version: "1.36"
+  origversion: 1.36-3
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
@@ -2824,6 +3080,22 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.50.2
+  origversion: 1.50.2-2
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
     - toddy@debian.org
   categories:
     - universe/misc
@@ -2861,23 +3133,6 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: rclone
-  binnames:
-    - golang-github-rclone-rclone-dev
-    - rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1+dfsg-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - matthew@debian.org
-    - toddy@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: rclone
   binnames:
@@ -2889,6 +3144,23 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - matthew@debian.org
+    - toddy@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: rclone
+  binnames:
+    - golang-github-rclone-rclone-dev
+    - rclone
+  visiblename: rclone
+  version: 1.60.1
+  origversion: 1.60.1+dfsg-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - matthew@debian.org
     - toddy@debian.org
   categories:
@@ -2963,14 +3235,14 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_26_04
-  subrepo: resolute-updates/universe
+  subrepo: resolute/universe
   srcname: rclone
   binnames:
     - golang-github-rclone-rclone-dev
     - rclone
   visiblename: rclone
   version: 1.60.1
-  origversion: 1.60.1+dfsg-4ubuntu3.2
+  origversion: 1.60.1+dfsg-4ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2980,14 +3252,14 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_26_04
-  subrepo: resolute/universe
+  subrepo: resolute-updates/universe
   srcname: rclone
   binnames:
     - golang-github-rclone-rclone-dev
     - rclone
   visiblename: rclone
   version: 1.60.1
-  origversion: 1.60.1+dfsg-4ubuntu3
+  origversion: 1.60.1+dfsg-4ubuntu3.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3039,266 +3311,6 @@
   visiblename: rclone
   version: 1.74.1
   origversion: 1.74.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.71.0
-  origversion: 1.71.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.70.1
-  origversion: 1.70.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.70.0
-  origversion: 1.70.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.69.3
-  origversion: 1.69.3-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.69.2
-  origversion: 1.69.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.69.1
-  origversion: 1.69.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.69.0
-  origversion: 1.69.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.68.2
-  origversion: 1.68.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.68.1
-  origversion: 1.68.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.68.0
-  origversion: 1.68.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.67.0
-  origversion: 1.67.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.66.0
-  origversion: 1.66.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.65.2
-  origversion: 1.65.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.65.1
-  origversion: 1.65.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.65.0
-  origversion: 1.65.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.64.2
-  origversion: 1.64.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.64.1
-  origversion: 1.64.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.64.0
-  origversion: 1.64.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.63.1
-  origversion: 1.63.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.63.0
-  origversion: 1.63.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.62.2
-  origversion: 1.62.2-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.62.1
-  origversion: 1.62.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.62.0
-  origversion: 1.62.0-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.61.1
-  origversion: 1.61.1-2~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.61.0
-  origversion: 1.61.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: devops
-  binname: rclone
-  visiblename: rclone
-  version: 1.60.1
-  origversion: 1.60.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -3372,16 +3384,4 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-  vulnerable: true
-- repo: amazon_2
-  srcname: rclone
-  visiblename: rclone
-  version: 1.55.1
-  origversion: 1.55.1-1.amzn2
-  status: outdated
-  summary: Rsync for cloud storage
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
