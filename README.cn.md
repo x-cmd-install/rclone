@@ -4,7 +4,7 @@
 
 "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
 
-[![x-cmd/install — rclone Code Quality Monitoring Repo Card](https://repo.x-cmd.io/rclone.svg?lang=zh)](https://x-cmd.com/install/rclone)
+[![x-cmd/install — rclone Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/rclone.svg?lang=zh)](https://x-cmd.com/install/rclone)
 
 ## 安装
 
@@ -14,14 +14,14 @@ x install rclone
 
 ## 代码洞察
 
-合计: **457,696** 行代码（覆盖前 5 种语言、共 **1377** 个文件）。
+合计: **457,762** 行代码（覆盖前 5 种语言、共 **1377** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 305,229 | 40,502 | 35,484 | 1180 |
+| Go | 305,293 | 40,508 | 35,486 | 1180 |
 | Html | 82,785 | 247 | 248 | 53 |
 | Json | 58,842 | 0 | 1 | 5 |
-| Yaml | 3,895 | 199 | 12 | 126 |
+| Yaml | 3,897 | 199 | 12 | 126 |
 | Python | 1,380 | 85 | 178 | 13 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install rclone
 ## 发布
 
 - **最新版本**: `v1.75.1` (2026-09-04)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 51 个
 
 ## 流行度
 
-- **Star**: 59,878 · **Fork**: 5,418 · **开放 issue**: 6,230 · **贡献者**: 1,026
+- **Star**: 59,899 · **Fork**: 5,420 · **开放 issue**: 6,230 · **贡献者**: 1,027
 
 ## 累计统计
 
-- **发布数**: 132 · **已合并 PR**: 2567 · **开放 PR**: 279 · **已关闭 issue**: 5239 · **开放 issue**: 991 · **提交数**: 10391
+- **发布数**: 132 · **已合并 PR**: 2569 · **开放 PR**: 278 · **已关闭 issue**: 5240 · **开放 issue**: 990 · **提交数**: 10399
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 50 | 45 | 16 | 32 | 131 |
-| last60d | 2026-07-24 | 2 | 106 | 69 | 52 | 54 | 349 |
-| 90d | 2026-06-24 | 3 | 153 | 89 | 74 | 71 | 532 |
-| last180d | 2026-03-26 | 9 | 223 | 140 | 129 | 112 | 819 |
-| 360d | 2025-09-27 | 16 | 389 | 196 | 214 | 194 | 1251 |
-| last720d | 2024-10-02 | 27 | 628 | 247 | 479 | 301 | 2039 |
+| 30d | 2026-08-24 | 1 | 52 | 40 | 17 | 31 | 138 |
+| last60d | 2026-07-25 | 2 | 106 | 68 | 53 | 53 | 356 |
+| 90d | 2026-06-25 | 3 | 155 | 88 | 75 | 70 | 539 |
+| last180d | 2026-03-27 | 9 | 224 | 139 | 130 | 110 | 826 |
+| 360d | 2025-09-28 | 16 | 391 | 195 | 212 | 193 | 1258 |
+| last720d | 2024-10-03 | 27 | 630 | 246 | 480 | 299 | 2045 |
 
 ## Release 资产
 
@@ -130,4 +130,4 @@ rclone 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:37:59Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:26:10Z._
