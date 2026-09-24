@@ -14,25 +14,25 @@ x install rclone
 
 ## Code insight
 
-Total: **457,762** lines of code across **1377** files in the top 5 languages.
+Total: **457,944** lines of code across **1377** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 305,293 | 40,508 | 35,486 | 1180 |
+| Go | 305,474 | 40,555 | 35,501 | 1180 |
 | Html | 82,785 | 247 | 248 | 53 |
 | Json | 58,842 | 0 | 1 | 5 |
-| Yaml | 3,897 | 199 | 12 | 126 |
+| Yaml | 3,898 | 199 | 12 | 126 |
 | Python | 1,380 | 85 | 178 | 13 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.5 / 10**
+Overall score: **5.2 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 12/29 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.1` (2026-09-04)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-23
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 59,899 · **Forks**: 5,420 · **Open issues**: 6,230 · **Contributors**: 1,027
+- **Stars**: 59,926 · **Forks**: 5,424 · **Open issues**: 6,231 · **Contributors**: 1,027
 
 ## Totals (cumulative)
 
-- **Releases**: 132 · **Merged PRs**: 2569 · **Open PRs**: 278 · **Closed issues**: 5240 · **Open issues**: 990 · **Commits**: 10399
+- **Releases**: 132 · **Merged PRs**: 2569 · **Open PRs**: 281 · **Closed issues**: 5240 · **Open issues**: 991 · **Commits**: 10412
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 1 | 52 | 40 | 17 | 31 | 138 |
-| last60d | 2026-07-25 | 2 | 106 | 68 | 53 | 53 | 356 |
-| 90d | 2026-06-25 | 3 | 155 | 88 | 75 | 70 | 539 |
-| last180d | 2026-03-27 | 9 | 224 | 139 | 130 | 110 | 826 |
-| 360d | 2025-09-28 | 16 | 391 | 195 | 212 | 193 | 1258 |
-| last720d | 2024-10-03 | 27 | 630 | 246 | 480 | 299 | 2045 |
+| 30d | 2026-08-25 | 1 | 51 | 42 | 17 | 31 | 151 |
+| last60d | 2026-07-26 | 2 | 106 | 70 | 53 | 53 | 369 |
+| 90d | 2026-06-26 | 3 | 151 | 90 | 74 | 71 | 552 |
+| last180d | 2026-03-28 | 9 | 222 | 142 | 130 | 111 | 839 |
+| 360d | 2025-09-29 | 16 | 390 | 197 | 211 | 194 | 1271 |
+| last720d | 2024-10-04 | 27 | 630 | 249 | 479 | 300 | 2049 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T05:26:08Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:05:46Z._
