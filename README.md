@@ -14,11 +14,11 @@ x install rclone
 
 ## Code insight
 
-Total: **457,944** lines of code across **1377** files in the top 5 languages.
+Total: **458,341** lines of code across **1376** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 305,474 | 40,555 | 35,501 | 1180 |
+| Go | 305,871 | 40,673 | 35,556 | 1179 |
 | Html | 82,785 | 247 | 248 | 53 |
 | Json | 58,842 | 0 | 1 | 5 |
 | Yaml | 3,898 | 199 | 12 | 126 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.1` (2026-09-04)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-24
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 59,926 · **Forks**: 5,424 · **Open issues**: 6,231 · **Contributors**: 1,027
+- **Stars**: 59,942 · **Forks**: 5,430 · **Open issues**: 6,233 · **Contributors**: 1,028
 
 ## Totals (cumulative)
 
-- **Releases**: 132 · **Merged PRs**: 2569 · **Open PRs**: 281 · **Closed issues**: 5240 · **Open issues**: 991 · **Commits**: 10412
+- **Releases**: 132 · **Merged PRs**: 2570 · **Open PRs**: 286 · **Closed issues**: 5241 · **Open issues**: 992 · **Commits**: 10418
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 1 | 51 | 42 | 17 | 31 | 151 |
-| last60d | 2026-07-26 | 2 | 106 | 70 | 53 | 53 | 369 |
-| 90d | 2026-06-26 | 3 | 151 | 90 | 74 | 71 | 552 |
-| last180d | 2026-03-28 | 9 | 222 | 142 | 130 | 111 | 839 |
-| 360d | 2025-09-29 | 16 | 390 | 197 | 211 | 194 | 1271 |
-| last720d | 2024-10-04 | 27 | 630 | 249 | 479 | 300 | 2049 |
+| 30d | 2026-08-26 | 1 | 50 | 44 | 16 | 30 | 157 |
+| last60d | 2026-07-27 | 2 | 104 | 74 | 52 | 53 | 375 |
+| 90d | 2026-06-27 | 3 | 150 | 94 | 75 | 72 | 558 |
+| last180d | 2026-03-29 | 9 | 223 | 146 | 130 | 112 | 845 |
+| 360d | 2025-09-30 | 16 | 389 | 201 | 210 | 194 | 1277 |
+| last720d | 2024-10-05 | 27 | 631 | 254 | 479 | 301 | 2055 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:05:46Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T05:20:06Z._
