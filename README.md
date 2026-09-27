@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.1` (2026-09-04)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-26
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 59,955 · **Forks**: 5,436 · **Open issues**: 6,234 · **Contributors**: 1,030
+- **Stars**: 59,960 · **Forks**: 5,441 · **Open issues**: 6,235 · **Contributors**: 1,030
 
 ## Totals (cumulative)
 
-- **Releases**: 132 · **Merged PRs**: 2573 · **Open PRs**: 290 · **Closed issues**: 5243 · **Open issues**: 991 · **Commits**: 10422
+- **Releases**: 132 · **Merged PRs**: 2573 · **Open PRs**: 298 · **Closed issues**: 5243 · **Open issues**: 992 · **Commits**: 10425
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 1 | 50 | 45 | 18 | 27 | 161 |
-| last60d | 2026-07-28 | 2 | 103 | 78 | 38 | 50 | 379 |
-| 90d | 2026-06-28 | 3 | 151 | 98 | 76 | 71 | 562 |
-| last180d | 2026-03-30 | 9 | 223 | 150 | 132 | 111 | 849 |
-| 360d | 2025-10-01 | 16 | 392 | 205 | 212 | 193 | 1281 |
-| last720d | 2024-10-06 | 27 | 633 | 258 | 481 | 300 | 2059 |
+| 30d | 2026-08-28 | 1 | 50 | 51 | 18 | 27 | 108 |
+| last60d | 2026-07-29 | 2 | 102 | 86 | 37 | 51 | 308 |
+| 90d | 2026-06-29 | 3 | 149 | 105 | 76 | 71 | 530 |
+| last180d | 2026-03-31 | 9 | 222 | 157 | 131 | 112 | 827 |
+| 360d | 2025-10-02 | 16 | 391 | 213 | 212 | 194 | 1259 |
+| last720d | 2024-10-07 | 27 | 632 | 266 | 481 | 301 | 2062 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:15:28Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:38:28Z._
