@@ -14,7 +14,7 @@ x install rclone
 
 ## Code insight
 
-Total: **460,334** lines of code across **1385** files in the top 5 languages.
+Total: **460,337** lines of code across **1385** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.1` (2026-09-04)
-- **Last commit**: 2026-10-02
+- **Last commit**: 2026-10-03
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 60,078 · **Forks**: 5,472 · **Open issues**: 6,245 · **Contributors**: 1,031
+- **Stars**: 60,096 · **Forks**: 5,473 · **Open issues**: 6,246 · **Contributors**: 1,031
 
 ## Totals (cumulative)
 
-- **Releases**: 132 · **Merged PRs**: 2583 · **Open PRs**: 316 · **Closed issues**: 5250 · **Open issues**: 995 · **Commits**: 10450
+- **Releases**: 132 · **Merged PRs**: 2583 · **Open PRs**: 315 · **Closed issues**: 5250 · **Open issues**: 996 · **Commits**: 10451
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 1 | 52 | 70 | 12 | 34 | 122 |
-| last60d | 2026-08-04 | 1 | 94 | 103 | 30 | 57 | 322 |
-| 90d | 2026-07-05 | 3 | 151 | 125 | 74 | 79 | 544 |
-| last180d | 2026-04-06 | 9 | 224 | 174 | 131 | 117 | 841 |
-| 360d | 2025-10-08 | 16 | 392 | 230 | 213 | 196 | 1273 |
-| last720d | 2024-10-13 | 27 | 635 | 284 | 482 | 305 | 2085 |
+| 30d | 2026-09-04 | 1 | 50 | 67 | 10 | 35 | 89 |
+| last60d | 2026-08-05 | 1 | 91 | 101 | 30 | 54 | 298 |
+| 90d | 2026-07-06 | 3 | 148 | 123 | 72 | 79 | 498 |
+| last180d | 2026-04-07 | 9 | 224 | 173 | 131 | 118 | 810 |
+| 360d | 2025-10-09 | 16 | 389 | 229 | 213 | 196 | 1259 |
+| last720d | 2024-10-14 | 27 | 635 | 283 | 481 | 305 | 2086 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:39:42Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:13:14Z._
