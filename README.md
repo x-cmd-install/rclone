@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.1` (2026-09-04)
-- **Last commit**: 2026-10-03
+- **Last commit**: 2026-10-04
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 60,096 · **Forks**: 5,473 · **Open issues**: 6,246 · **Contributors**: 1,031
+- **Stars**: 60,108 · **Forks**: 5,475 · **Open issues**: 6,247 · **Contributors**: 1,032
 
 ## Totals (cumulative)
 
-- **Releases**: 132 · **Merged PRs**: 2583 · **Open PRs**: 315 · **Closed issues**: 5250 · **Open issues**: 996 · **Commits**: 10451
+- **Releases**: 132 · **Merged PRs**: 2584 · **Open PRs**: 316 · **Closed issues**: 5250 · **Open issues**: 997 · **Commits**: 10452
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 1 | 50 | 67 | 10 | 35 | 89 |
-| last60d | 2026-08-05 | 1 | 91 | 101 | 30 | 54 | 298 |
-| 90d | 2026-07-06 | 3 | 148 | 123 | 72 | 79 | 498 |
-| last180d | 2026-04-07 | 9 | 224 | 173 | 131 | 118 | 810 |
-| 360d | 2025-10-09 | 16 | 389 | 229 | 213 | 196 | 1259 |
-| last720d | 2024-10-14 | 27 | 635 | 283 | 481 | 305 | 2086 |
+| 30d | 2026-09-05 | 0 | 46 | 68 | 9 | 36 | 90 |
+| last60d | 2026-08-06 | 1 | 92 | 100 | 30 | 54 | 299 |
+| 90d | 2026-07-07 | 3 | 149 | 123 | 71 | 79 | 499 |
+| last180d | 2026-04-08 | 9 | 224 | 174 | 131 | 118 | 811 |
+| 360d | 2025-10-10 | 16 | 389 | 230 | 212 | 197 | 1260 |
+| last720d | 2024-10-15 | 27 | 635 | 283 | 480 | 305 | 2085 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T06:13:14Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T06:05:44Z._
