@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,446 · **Forks**: 5,556 · **Open issues**: 6,292 · **Contributors**: 1,064
+- **Stars**: 60,462 · **Forks**: 5,561 · **Open issues**: 6,295 · **Contributors**: 1,064
 
 ## Totals (cumulative)
 
-- **Releases**: 133 · **Merged PRs**: 2637 · **Open PRs**: 302 · **Closed issues**: 5356 · **Open issues**: 936 · **Commits**: 10608
+- **Releases**: 133 · **Merged PRs**: 2637 · **Open PRs**: 308 · **Closed issues**: 5355 · **Open issues**: 940 · **Commits**: 10608
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 1 | 62 | 66 | 22 | 41 | 128 |
-| last60d | 2026-08-22 | 2 | 116 | 103 | 41 | 70 | 354 |
-| 90d | 2026-07-23 | 3 | 172 | 122 | 79 | 90 | 570 |
-| last180d | 2026-04-24 | 8 | 267 | 169 | 148 | 124 | 918 |
-| 360d | 2025-10-26 | 16 | 426 | 228 | 239 | 202 | 1372 |
-| last720d | 2024-10-31 | 28 | 680 | 276 | 513 | 306 | 2224 |
+| 30d | 2026-09-22 | 1 | 61 | 71 | 21 | 45 | 128 |
+| last60d | 2026-08-23 | 2 | 115 | 108 | 41 | 73 | 354 |
+| 90d | 2026-07-24 | 3 | 171 | 127 | 79 | 93 | 570 |
+| last180d | 2026-04-25 | 8 | 265 | 174 | 147 | 128 | 918 |
+| 360d | 2025-10-27 | 16 | 426 | 234 | 238 | 205 | 1372 |
+| last720d | 2024-11-01 | 28 | 679 | 282 | 511 | 309 | 2224 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:07:36Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:03:38Z._
