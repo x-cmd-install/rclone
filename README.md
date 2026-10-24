@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,474 · **Forks**: 5,568 · **Open issues**: 6,297 · **Contributors**: 1,064
+- **Stars**: 60,498 · **Forks**: 5,572 · **Open issues**: 6,299 · **Contributors**: 1,064
 
 ## Totals (cumulative)
 
-- **Releases**: 133 · **Merged PRs**: 2637 · **Open PRs**: 312 · **Closed issues**: 5355 · **Open issues**: 942 · **Commits**: 10608
+- **Releases**: 133 · **Merged PRs**: 2637 · **Open PRs**: 318 · **Closed issues**: 5355 · **Open issues**: 944 · **Commits**: 10608
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 60 | 74 | 20 | 47 | 128 |
-| last60d | 2026-08-24 | 2 | 114 | 112 | 41 | 75 | 354 |
-| 90d | 2026-07-25 | 3 | 169 | 132 | 79 | 95 | 570 |
-| last180d | 2026-04-26 | 8 | 265 | 179 | 146 | 128 | 918 |
-| 360d | 2025-10-28 | 16 | 425 | 238 | 238 | 207 | 1372 |
-| last720d | 2024-11-02 | 28 | 679 | 286 | 510 | 311 | 2224 |
+| 30d | 2026-09-24 | 1 | 59 | 79 | 20 | 47 | 128 |
+| last60d | 2026-08-25 | 2 | 113 | 117 | 41 | 76 | 354 |
+| 90d | 2026-07-26 | 3 | 169 | 137 | 79 | 96 | 570 |
+| last180d | 2026-04-27 | 8 | 263 | 185 | 146 | 129 | 918 |
+| 360d | 2025-10-29 | 16 | 425 | 244 | 238 | 209 | 1372 |
+| last720d | 2024-11-03 | 28 | 679 | 292 | 509 | 313 | 2224 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **249** distros on [repology.org](https://repology.org/project/rclone). **46** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
+Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **47** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:11:13Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:54:54Z._
