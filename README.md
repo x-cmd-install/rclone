@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.2` (2026-10-09)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-30
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 60,630 · **Forks**: 5,619 · **Open issues**: 6,310 · **Contributors**: 1,070
+- **Stars**: 60,657 · **Forks**: 5,623 · **Open issues**: 6,311 · **Contributors**: 1,070
 
 ## Totals (cumulative)
 
-- **Releases**: 133 · **Merged PRs**: 2651 · **Open PRs**: 324 · **Closed issues**: 5365 · **Open issues**: 945 · **Commits**: 10675
+- **Releases**: 133 · **Merged PRs**: 2651 · **Open PRs**: 332 · **Closed issues**: 5365 · **Open issues**: 946 · **Commits**: 10677
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 55 | 67 | 25 | 45 | 160 |
-| last60d | 2026-08-31 | 2 | 121 | 116 | 44 | 72 | 350 |
-| 90d | 2026-08-01 | 2 | 167 | 140 | 64 | 94 | 557 |
-| last180d | 2026-05-03 | 7 | 274 | 189 | 149 | 129 | 955 |
-| 360d | 2025-11-04 | 16 | 428 | 249 | 246 | 209 | 1385 |
-| last720d | 2024-11-09 | 28 | 691 | 298 | 516 | 314 | 2280 |
+| 30d | 2026-10-01 | 1 | 53 | 73 | 25 | 44 | 162 |
+| last60d | 2026-09-01 | 2 | 120 | 124 | 43 | 73 | 352 |
+| 90d | 2026-08-02 | 2 | 165 | 148 | 63 | 95 | 559 |
+| last180d | 2026-05-04 | 7 | 274 | 197 | 149 | 130 | 957 |
+| 360d | 2025-11-05 | 16 | 427 | 257 | 246 | 210 | 1387 |
+| last720d | 2024-11-10 | 28 | 691 | 306 | 515 | 315 | 2282 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **249** distros on [repology.org](https://repology.org/project/rclone). **47** are ✅ on the latest upstream release, **132** are ⚠️ on an older version.
+Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **47** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:11:44Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:59:29Z._
