@@ -14,14 +14,14 @@ x install rclone
 
 ## Code insight
 
-Total: **411,134** lines of code across **1407** files in the top 5 languages.
+Total: **413,811** lines of code across **1415** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 316,821 | 41,917 | 36,926 | 1206 |
-| Html | 82,722 | 243 | 248 | 53 |
-| Yaml | 4,007 | 218 | 12 | 130 |
-| Python | 1,560 | 91 | 205 | 15 |
+| Go | 319,460 | 42,381 | 37,287 | 1213 |
+| Html | 82,723 | 243 | 248 | 53 |
+| Yaml | 4,043 | 220 | 12 | 131 |
+| Python | 1,561 | 91 | 205 | 15 |
 | JavaScript | 1,023 | 99 | 117 | 3 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.2` (2026-10-09)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-10-31
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 60,657 · **Forks**: 5,623 · **Open issues**: 6,311 · **Contributors**: 1,070
+- **Stars**: 60,682 · **Forks**: 5,627 · **Open issues**: 6,313 · **Contributors**: 1,078
 
 ## Totals (cumulative)
 
-- **Releases**: 133 · **Merged PRs**: 2651 · **Open PRs**: 332 · **Closed issues**: 5365 · **Open issues**: 946 · **Commits**: 10677
+- **Releases**: 133 · **Merged PRs**: 2667 · **Open PRs**: 319 · **Closed issues**: 5369 · **Open issues**: 944 · **Commits**: 10698
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 53 | 73 | 25 | 44 | 162 |
-| last60d | 2026-09-01 | 2 | 120 | 124 | 43 | 73 | 352 |
-| 90d | 2026-08-02 | 2 | 165 | 148 | 63 | 95 | 559 |
-| last180d | 2026-05-04 | 7 | 274 | 197 | 149 | 130 | 957 |
-| 360d | 2025-11-05 | 16 | 427 | 257 | 246 | 210 | 1387 |
-| last720d | 2024-11-10 | 28 | 691 | 306 | 515 | 315 | 2282 |
+| 30d | 2026-10-02 | 1 | 63 | 60 | 28 | 41 | 135 |
+| last60d | 2026-09-02 | 2 | 133 | 112 | 43 | 71 | 337 |
+| 90d | 2026-08-03 | 2 | 176 | 137 | 64 | 94 | 552 |
+| last180d | 2026-05-05 | 7 | 289 | 186 | 152 | 128 | 943 |
+| 360d | 2025-11-06 | 16 | 442 | 246 | 249 | 209 | 1396 |
+| last720d | 2024-11-11 | 28 | 706 | 294 | 519 | 313 | 2303 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **47** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
+Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **52** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -136,7 +136,7 @@ Reported by **250** distros on [repology.org](https://repology.org/project/rclon
 | Fedora rawhide | `1.75.2` | ✅ latest |
 | Nix unstable | `1.75.2` | ✅ latest |
 | Void | `1.75.2` | ✅ latest |
-| Alpine edge | `1.75.1` | ⚠️ outdated |
+| Alpine edge | `1.75.2` | ✅ latest |
 | openSUSE Tumbleweed | `1.75.2` | ✅ latest |
 
 ## Improve this data
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:59:29Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:24:50Z._
