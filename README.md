@@ -14,11 +14,11 @@ x install rclone
 
 ## Code insight
 
-Total: **413,811** lines of code across **1415** files in the top 5 languages.
+Total: **414,095** lines of code across **1417** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 319,460 | 42,381 | 37,287 | 1213 |
+| Go | 319,721 | 42,423 | 37,311 | 1215 |
 | Html | 82,723 | 243 | 248 | 53 |
 | Yaml | 4,043 | 220 | 12 | 131 |
 | Python | 1,561 | 91 | 205 | 15 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.75.2` (2026-10-09)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-01
 - **Assets in release**: 51
 
 ## Popularity
 
-- **Stars**: 60,682 · **Forks**: 5,627 · **Open issues**: 6,313 · **Contributors**: 1,078
+- **Stars**: 60,709 · **Forks**: 5,635 · **Open issues**: 6,314 · **Contributors**: 1,078
 
 ## Totals (cumulative)
 
-- **Releases**: 133 · **Merged PRs**: 2667 · **Open PRs**: 319 · **Closed issues**: 5369 · **Open issues**: 944 · **Commits**: 10698
+- **Releases**: 133 · **Merged PRs**: 2667 · **Open PRs**: 321 · **Closed issues**: 5369 · **Open issues**: 945 · **Commits**: 10699
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 63 | 60 | 28 | 41 | 135 |
-| last60d | 2026-09-02 | 2 | 133 | 112 | 43 | 71 | 337 |
-| 90d | 2026-08-03 | 2 | 176 | 137 | 64 | 94 | 552 |
-| last180d | 2026-05-05 | 7 | 289 | 186 | 152 | 128 | 943 |
-| 360d | 2025-11-06 | 16 | 442 | 246 | 249 | 209 | 1396 |
-| last720d | 2024-11-11 | 28 | 706 | 294 | 519 | 313 | 2303 |
+| 30d | 2026-10-03 | 1 | 63 | 62 | 27 | 41 | 136 |
+| last60d | 2026-09-03 | 2 | 131 | 113 | 43 | 72 | 338 |
+| 90d | 2026-08-04 | 2 | 173 | 139 | 62 | 94 | 553 |
+| last180d | 2026-05-06 | 7 | 288 | 188 | 152 | 129 | 944 |
+| 360d | 2025-11-07 | 16 | 442 | 247 | 249 | 209 | 1397 |
+| last720d | 2024-11-12 | 28 | 705 | 296 | 518 | 314 | 2300 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **52** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
+Reported by **250** distros on [repology.org](https://repology.org/project/rclone). **53** are ✅ on the latest upstream release, **127** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:24:50Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:27:23Z._
