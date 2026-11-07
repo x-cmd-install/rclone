@@ -14,12 +14,12 @@ x install rclone
 
 ## 代码洞察
 
-合计: **415,070** 行代码（覆盖前 5 种语言、共 **1420** 个文件）。
+合计: **421,322** 行代码（覆盖前 5 种语言、共 **1422** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 320,626 | 42,538 | 37,384 | 1216 |
-| Html | 82,729 | 243 | 249 | 53 |
+| Go | 321,851 | 42,828 | 37,555 | 1218 |
+| Html | 87,756 | 220 | 261 | 53 |
 | Yaml | 4,107 | 220 | 13 | 133 |
 | Python | 1,561 | 91 | 205 | 15 |
 | JavaScript | 1,023 | 99 | 117 | 3 |
@@ -42,102 +42,102 @@ x install rclone
 
 ## 发布
 
-- **最新版本**: `v1.75.2` (2026-10-09)
-- **最近提交**: 2026-11-05
+- **最新版本**: `v1.76.0` (2026-11-06)
+- **最近提交**: 2026-11-06
 - **Release 含资产**: 51 个
 
 ## 流行度
 
-- **Star**: 60,830 · **Fork**: 5,656 · **开放 issue**: 6,328 · **贡献者**: 1,083
+- **Star**: 60,839 · **Fork**: 5,657 · **开放 issue**: 6,331 · **贡献者**: 1,083
 
 ## 累计统计
 
-- **发布数**: 133 · **已合并 PR**: 2680 · **开放 PR**: 330 · **已关闭 issue**: 5372 · **开放 issue**: 956 · **提交数**: 10725
+- **发布数**: 134 · **已合并 PR**: 2680 · **开放 PR**: 335 · **已关闭 issue**: 5373 · **开放 issue**: 958 · **提交数**: 10750
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 62 | 73 | 22 | 50 | 159 |
-| last60d | 2026-09-07 | 1 | 130 | 120 | 41 | 80 | 366 |
-| 90d | 2026-08-08 | 2 | 176 | 147 | 64 | 99 | 580 |
-| last180d | 2026-05-10 | 6 | 297 | 195 | 152 | 139 | 971 |
-| 360d | 2025-11-11 | 16 | 450 | 255 | 248 | 214 | 1424 |
-| last720d | 2024-11-16 | 27 | 716 | 304 | 516 | 322 | 2318 |
+| 30d | 2026-10-08 | 2 | 61 | 78 | 23 | 52 | 175 |
+| last60d | 2026-09-08 | 2 | 125 | 124 | 42 | 81 | 391 |
+| 90d | 2026-08-09 | 3 | 173 | 152 | 65 | 100 | 605 |
+| last180d | 2026-05-11 | 7 | 296 | 200 | 151 | 140 | 996 |
+| 360d | 2025-11-12 | 17 | 450 | 260 | 247 | 216 | 1449 |
+| last720d | 2024-11-17 | 28 | 715 | 309 | 513 | 324 | 2343 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [MD5SUMS](https://github.com/rclone/rclone/releases/download/v1.75.2/MD5SUMS) | 3.2 KiB | `other` |
-| [rclone-v1.75.2-aix-ppc64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-aix-ppc64.zip) | 29.7 MiB | `other` |
-| [rclone-v1.75.2-freebsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-freebsd-386.zip) | 28.2 MiB | `other` |
-| [rclone-v1.75.2-freebsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-freebsd-amd64.zip) | 29.8 MiB | `other` |
-| [rclone-v1.75.2-freebsd-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-freebsd-arm-v6.zip) | 28.1 MiB | `other` |
-| [rclone-v1.75.2-freebsd-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-freebsd-arm-v7.zip) | 28.1 MiB | `other` |
-| [rclone-v1.75.2-freebsd-arm.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-freebsd-arm.zip) | 28.2 MiB | `other` |
-| [rclone-v1.75.2-linux-386.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-386.deb) | 29.3 MiB | `other` |
-| [rclone-v1.75.2-linux-386.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-386.rpm) | 29.2 MiB | `other` |
-| [rclone-v1.75.2-linux-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-386.zip) | 28.6 MiB | `other` |
-| [rclone-v1.75.2-linux-amd64.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.deb) | 30.8 MiB | `native/linux/x64` |
-| [rclone-v1.75.2-linux-amd64.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.rpm) | 30.8 MiB | `native/linux/x64` |
-| [rclone-v1.75.2-linux-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.zip) | 30.2 MiB | `native/linux/x64` |
-| [rclone-v1.75.2-linux-arm-v6.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v6.deb) | 29.3 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm-v6.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v6.rpm) | 29.2 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v6.zip) | 28.5 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm-v7.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v7.deb) | 29.3 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm-v7.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v7.rpm) | 29.2 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm-v7.zip) | 28.4 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm.deb) | 29.3 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm.rpm) | 29.2 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm.zip) | 28.5 MiB | `native/linux/arm` |
-| [rclone-v1.75.2-linux-arm64.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.deb) | 28.2 MiB | `native/linux/arm64` |
-| [rclone-v1.75.2-linux-arm64.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.rpm) | 28.1 MiB | `native/linux/arm64` |
-| [rclone-v1.75.2-linux-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.zip) | 27.4 MiB | `native/linux/arm64` |
-| [rclone-v1.75.2-linux-mips.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mips.deb) | 27.3 MiB | `other` |
-| [rclone-v1.75.2-linux-mips.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mips.rpm) | 27.3 MiB | `other` |
-| [rclone-v1.75.2-linux-mips.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mips.zip) | 27.0 MiB | `other` |
-| [rclone-v1.75.2-linux-mipsle.deb](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mipsle.deb) | 27.2 MiB | `other` |
-| [rclone-v1.75.2-linux-mipsle.rpm](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mipsle.rpm) | 27.2 MiB | `other` |
-| [rclone-v1.75.2-linux-mipsle.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-mipsle.zip) | 26.7 MiB | `other` |
-| [rclone-v1.75.2-netbsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-netbsd-386.zip) | 28.2 MiB | `other` |
-| [rclone-v1.75.2-netbsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-netbsd-amd64.zip) | 29.8 MiB | `other` |
-| [rclone-v1.75.2-netbsd-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-netbsd-arm-v6.zip) | 28.1 MiB | `other` |
-| [rclone-v1.75.2-netbsd-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-netbsd-arm-v7.zip) | 28.1 MiB | `other` |
-| [rclone-v1.75.2-netbsd-arm.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-netbsd-arm.zip) | 28.1 MiB | `other` |
-| [rclone-v1.75.2-openbsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-openbsd-386.zip) | 28.2 MiB | `other` |
-| [rclone-v1.75.2-openbsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-openbsd-amd64.zip) | 29.8 MiB | `other` |
-| [rclone-v1.75.2-osx-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-amd64.zip) | 33.4 MiB | `native/darwin/x64` |
-| [rclone-v1.75.2-osx-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-osx-arm64.zip) | 31.1 MiB | `native/darwin/arm64` |
-| [rclone-v1.75.2-plan9-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-plan9-386.zip) | 20.9 MiB | `other` |
-| [rclone-v1.75.2-plan9-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-plan9-amd64.zip) | 22.0 MiB | `other` |
-| [rclone-v1.75.2-solaris-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-solaris-amd64.zip) | 27.4 MiB | `other` |
-| [rclone-v1.75.2-vendor.tar.gz](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-vendor.tar.gz) | 17.1 MiB | `native/unknown` |
-| [rclone-v1.75.2-windows-386.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-386.zip) | 28.3 MiB | `native/win/x64` |
-| [rclone-v1.75.2-windows-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-amd64.zip) | 30.2 MiB | `native/win/x64` |
-| [rclone-v1.75.2-windows-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-windows-arm64.zip) | 27.2 MiB | `native/win/arm64` |
-| [rclone-v1.75.2.tar.gz](https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2.tar.gz) | 16.1 MiB | `native/unknown` |
-| [SHA1SUMS](https://github.com/rclone/rclone/releases/download/v1.75.2/SHA1SUMS) | 3.6 KiB | `other` |
-| [SHA256SUMS](https://github.com/rclone/rclone/releases/download/v1.75.2/SHA256SUMS) | 4.7 KiB | `other` |
-| [version.txt](https://github.com/rclone/rclone/releases/download/v1.75.2/version.txt) | 15 B | `other` |
+| [MD5SUMS](https://github.com/rclone/rclone/releases/download/v1.76.0/MD5SUMS) | 3.2 KiB | `other` |
+| [rclone-v1.76.0-aix-ppc64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-aix-ppc64.zip) | 30.0 MiB | `other` |
+| [rclone-v1.76.0-freebsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-freebsd-386.zip) | 28.8 MiB | `other` |
+| [rclone-v1.76.0-freebsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-freebsd-amd64.zip) | 30.3 MiB | `other` |
+| [rclone-v1.76.0-freebsd-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-freebsd-arm-v6.zip) | 28.7 MiB | `other` |
+| [rclone-v1.76.0-freebsd-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-freebsd-arm-v7.zip) | 28.6 MiB | `other` |
+| [rclone-v1.76.0-freebsd-arm.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-freebsd-arm.zip) | 28.7 MiB | `other` |
+| [rclone-v1.76.0-linux-386.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-386.deb) | 29.6 MiB | `other` |
+| [rclone-v1.76.0-linux-386.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-386.rpm) | 30.5 MiB | `other` |
+| [rclone-v1.76.0-linux-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-386.zip) | 29.2 MiB | `other` |
+| [rclone-v1.76.0-linux-amd64.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-amd64.deb) | 31.2 MiB | `native/linux/x64` |
+| [rclone-v1.76.0-linux-amd64.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-amd64.rpm) | 32.2 MiB | `native/linux/x64` |
+| [rclone-v1.76.0-linux-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-amd64.zip) | 30.7 MiB | `native/linux/x64` |
+| [rclone-v1.76.0-linux-arm-v6.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v6.deb) | 29.6 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm-v6.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v6.rpm) | 30.4 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v6.zip) | 29.0 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm-v7.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v7.deb) | 29.5 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm-v7.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v7.rpm) | 30.4 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm-v7.zip) | 29.0 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm.deb) | 29.6 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm.rpm) | 30.4 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm.zip) | 29.0 MiB | `native/linux/arm` |
+| [rclone-v1.76.0-linux-arm64.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm64.deb) | 28.5 MiB | `native/linux/arm64` |
+| [rclone-v1.76.0-linux-arm64.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm64.rpm) | 29.3 MiB | `native/linux/arm64` |
+| [rclone-v1.76.0-linux-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-arm64.zip) | 27.9 MiB | `native/linux/arm64` |
+| [rclone-v1.76.0-linux-mips.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mips.deb) | 27.7 MiB | `other` |
+| [rclone-v1.76.0-linux-mips.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mips.rpm) | 28.9 MiB | `other` |
+| [rclone-v1.76.0-linux-mips.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mips.zip) | 27.6 MiB | `other` |
+| [rclone-v1.76.0-linux-mipsle.deb](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mipsle.deb) | 27.6 MiB | `other` |
+| [rclone-v1.76.0-linux-mipsle.rpm](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mipsle.rpm) | 28.5 MiB | `other` |
+| [rclone-v1.76.0-linux-mipsle.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-linux-mipsle.zip) | 27.3 MiB | `other` |
+| [rclone-v1.76.0-netbsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-netbsd-386.zip) | 28.8 MiB | `other` |
+| [rclone-v1.76.0-netbsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-netbsd-amd64.zip) | 30.3 MiB | `other` |
+| [rclone-v1.76.0-netbsd-arm-v6.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-netbsd-arm-v6.zip) | 28.6 MiB | `other` |
+| [rclone-v1.76.0-netbsd-arm-v7.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-netbsd-arm-v7.zip) | 28.6 MiB | `other` |
+| [rclone-v1.76.0-netbsd-arm.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-netbsd-arm.zip) | 28.7 MiB | `other` |
+| [rclone-v1.76.0-openbsd-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-openbsd-386.zip) | 28.8 MiB | `other` |
+| [rclone-v1.76.0-openbsd-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-openbsd-amd64.zip) | 30.3 MiB | `other` |
+| [rclone-v1.76.0-osx-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-osx-amd64.zip) | 34.1 MiB | `native/darwin/x64` |
+| [rclone-v1.76.0-osx-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-osx-arm64.zip) | 31.7 MiB | `native/darwin/arm64` |
+| [rclone-v1.76.0-plan9-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-plan9-386.zip) | 21.5 MiB | `other` |
+| [rclone-v1.76.0-plan9-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-plan9-amd64.zip) | 22.6 MiB | `other` |
+| [rclone-v1.76.0-solaris-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-solaris-amd64.zip) | 29.7 MiB | `other` |
+| [rclone-v1.76.0-vendor.tar.gz](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-vendor.tar.gz) | 17.8 MiB | `native/unknown` |
+| [rclone-v1.76.0-windows-386.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-386.zip) | 28.8 MiB | `native/win/x64` |
+| [rclone-v1.76.0-windows-amd64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-amd64.zip) | 30.7 MiB | `native/win/x64` |
+| [rclone-v1.76.0-windows-arm64.zip](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-arm64.zip) | 27.7 MiB | `native/win/arm64` |
+| [rclone-v1.76.0.tar.gz](https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0.tar.gz) | 16.4 MiB | `native/unknown` |
+| [SHA1SUMS](https://github.com/rclone/rclone/releases/download/v1.76.0/SHA1SUMS) | 3.6 KiB | `other` |
+| [SHA256SUMS](https://github.com/rclone/rclone/releases/download/v1.76.0/SHA256SUMS) | 4.7 KiB | `other` |
+| [version.txt](https://github.com/rclone/rclone/releases/download/v1.76.0/version.txt) | 15 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/rclone) 上共有 **250** 个发行版报告此项目。**61** 个 ✅ 已是最新上游版本，**119** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/rclone) 上共有 **249** 个发行版报告此项目。**14** 个 ✅ 已是最新上游版本，**166** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.75.2` | ✅ latest |
+| Debian unstable | `1.75.2` | ⚠️ outdated |
 | Debian 13 | `1.60.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.60.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.60.1` | ⚠️ outdated |
-| Arch | `1.75.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `1.75.2` | ✅ latest |
-| Nix unstable | `1.75.2` | ✅ latest |
-| Void | `1.75.2` | ✅ latest |
-| Alpine edge | `1.75.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.75.2` | ✅ latest |
+| Arch | `1.76.0` | ✅ latest |
+| Homebrew | `1.76.0` | ✅ latest |
+| Fedora rawhide | `1.75.2` | ⚠️ outdated |
+| Nix unstable | `1.75.2` | ⚠️ outdated |
+| Void | `1.75.2` | ⚠️ outdated |
+| Alpine edge | `1.75.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.75.2` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -148,4 +148,4 @@ rclone 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T07:07:38Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T06:18:33Z._
