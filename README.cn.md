@@ -14,11 +14,11 @@ x install rclone
 
 ## 代码洞察
 
-合计: **421,344** 行代码（覆盖前 5 种语言、共 **1423** 个文件）。
+合计: **421,489** 行代码（覆盖前 5 种语言、共 **1423** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 321,864 | 42,830 | 37,559 | 1218 |
+| Go | 322,009 | 42,849 | 37,572 | 1218 |
 | Html | 87,756 | 220 | 261 | 53 |
 | Yaml | 4,116 | 222 | 13 | 134 |
 | Python | 1,561 | 91 | 205 | 15 |
@@ -26,13 +26,13 @@ x install rclone
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.4 / 10**
+总评分: **4.8 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install rclone
 ## 发布
 
 - **最新版本**: `v1.76.0` (2026-11-06)
-- **最近提交**: 2026-11-08
+- **最近提交**: 2026-11-09
 - **Release 含资产**: 51 个
 
 ## 流行度
 
-- **Star**: 60,884 · **Fork**: 5,664 · **开放 issue**: 6,337 · **贡献者**: 1,084
+- **Star**: 60,910 · **Fork**: 5,667 · **开放 issue**: 6,339 · **贡献者**: 1,084
 
 ## 累计统计
 
-- **发布数**: 134 · **已合并 PR**: 2681 · **开放 PR**: 345 · **已关闭 issue**: 5374 · **开放 issue**: 963 · **提交数**: 10751
+- **发布数**: 134 · **已合并 PR**: 2681 · **开放 PR**: 349 · **已关闭 issue**: 5375 · **开放 issue**: 964 · **提交数**: 10752
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 58 | 87 | 23 | 56 | 136 |
-| last60d | 2026-09-10 | 2 | 122 | 129 | 43 | 82 | 354 |
-| 90d | 2026-08-11 | 3 | 174 | 161 | 66 | 104 | 561 |
-| last180d | 2026-05-13 | 7 | 289 | 207 | 148 | 145 | 980 |
-| 360d | 2025-11-14 | 17 | 448 | 270 | 248 | 220 | 1435 |
-| last720d | 2024-11-19 | 28 | 714 | 319 | 512 | 329 | 2344 |
+| 30d | 2026-10-11 | 1 | 56 | 91 | 22 | 55 | 137 |
+| last60d | 2026-09-11 | 2 | 122 | 132 | 44 | 82 | 355 |
+| 90d | 2026-08-12 | 3 | 173 | 165 | 66 | 105 | 562 |
+| last180d | 2026-05-14 | 7 | 289 | 211 | 148 | 145 | 981 |
+| 360d | 2025-11-15 | 17 | 448 | 274 | 249 | 221 | 1436 |
+| last720d | 2024-11-20 | 28 | 711 | 323 | 512 | 329 | 2345 |
 
 ## Release 资产
 
@@ -123,7 +123,7 @@ x install rclone
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/rclone) 上共有 **247** 个发行版报告此项目。**27** 个 ✅ 已是最新上游版本，**153** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/rclone) 上共有 **248** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**153** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -135,7 +135,7 @@ x install rclone
 | Homebrew | `1.76.0` | ✅ latest |
 | Fedora rawhide | `1.75.2` | ⚠️ outdated |
 | Nix unstable | `1.75.2` | ⚠️ outdated |
-| Void | `1.75.2` | ⚠️ outdated |
+| Void | `1.76.0` | ✅ latest |
 | Alpine edge | `1.75.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.75.2` | ⚠️ outdated |
 
@@ -148,4 +148,4 @@ rclone 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:51:40Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:42:09Z._
