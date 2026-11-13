@@ -14,11 +14,11 @@ x install rclone
 
 ## Code insight
 
-Total: **422,623** lines of code across **1428** files in the top 5 languages.
+Total: **422,817** lines of code across **1428** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 323,098 | 42,935 | 37,667 | 1223 |
+| Go | 323,292 | 42,939 | 37,681 | 1223 |
 | Html | 87,756 | 220 | 261 | 53 |
 | Yaml | 4,133 | 222 | 13 | 134 |
 | Python | 1,561 | 91 | 205 | 15 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 60,965 · **Forks**: 5,678 · **Open issues**: 6,350 · **Contributors**: 1,093
+- **Stars**: 60,995 · **Forks**: 5,684 · **Open issues**: 6,354 · **Contributors**: 1,097
 
 ## Totals (cumulative)
 
-- **Releases**: 134 · **Merged PRs**: 2700 · **Open PRs**: 342 · **Closed issues**: 5384 · **Open issues**: 966 · **Commits**: 10779
+- **Releases**: 134 · **Merged PRs**: 2704 · **Open PRs**: 340 · **Closed issues**: 5386 · **Open issues**: 968 · **Commits**: 10783
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 1 | 70 | 82 | 23 | 59 | 166 |
-| last60d | 2026-09-13 | 2 | 138 | 124 | 47 | 86 | 384 |
-| 90d | 2026-08-14 | 3 | 189 | 159 | 69 | 111 | 591 |
-| last180d | 2026-05-16 | 7 | 307 | 205 | 153 | 151 | 1010 |
-| 360d | 2025-11-17 | 17 | 467 | 268 | 253 | 224 | 1465 |
-| last720d | 2024-11-22 | 28 | 729 | 317 | 520 | 332 | 2361 |
+| 30d | 2026-10-14 | 1 | 73 | 80 | 24 | 60 | 171 |
+| last60d | 2026-09-14 | 2 | 139 | 119 | 47 | 87 | 389 |
+| 90d | 2026-08-15 | 3 | 190 | 157 | 69 | 113 | 596 |
+| last180d | 2026-05-17 | 7 | 311 | 203 | 154 | 153 | 1015 |
+| 360d | 2025-11-18 | 17 | 468 | 266 | 252 | 226 | 1470 |
+| last720d | 2024-11-23 | 28 | 733 | 315 | 521 | 335 | 2364 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/rclone). **39** are ✅ on the latest upstream release, **142** are ⚠️ on an older version.
+Reported by **251** distros on [repology.org](https://repology.org/project/rclone). **42** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -134,7 +134,7 @@ Reported by **251** distros on [repology.org](https://repology.org/project/rclon
 | Arch | `1.76.0` | ✅ latest |
 | Homebrew | `1.76.0` | ✅ latest |
 | Fedora rawhide | `1.75.2` | ⚠️ outdated |
-| Nix unstable | `1.75.2` | ⚠️ outdated |
+| Nix unstable | `1.76.0` | ✅ latest |
 | Void | `1.76.0` | ✅ latest |
 | Alpine edge | `1.75.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.75.2` | ⚠️ outdated |
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:47:02Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:04:33Z._
