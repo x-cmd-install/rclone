@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 61,041 · **Forks**: 5,703 · **Open issues**: 6,367 · **Contributors**: 1,096
+- **Stars**: 61,065 · **Forks**: 5,709 · **Open issues**: 6,374 · **Contributors**: 1,097
 
 ## Totals (cumulative)
 
-- **Releases**: 134 · **Merged PRs**: 2702 · **Open PRs**: 358 · **Closed issues**: 5388 · **Open issues**: 979 · **Commits**: 10783
+- **Releases**: 134 · **Merged PRs**: 2704 · **Open PRs**: 363 · **Closed issues**: 5388 · **Open issues**: 986 · **Commits**: 10783
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 64 | 93 | 22 | 69 | 123 |
-| last60d | 2026-09-17 | 2 | 136 | 130 | 49 | 96 | 334 |
-| 90d | 2026-08-18 | 3 | 185 | 172 | 69 | 123 | 550 |
-| last180d | 2026-05-20 | 7 | 307 | 220 | 154 | 164 | 988 |
-| 360d | 2025-11-21 | 17 | 462 | 284 | 253 | 236 | 1448 |
-| last720d | 2024-11-26 | 28 | 729 | 333 | 520 | 344 | 2364 |
+| 30d | 2026-10-18 | 1 | 57 | 93 | 18 | 71 | 123 |
+| last60d | 2026-09-18 | 2 | 133 | 134 | 47 | 102 | 334 |
+| 90d | 2026-08-19 | 3 | 185 | 176 | 69 | 130 | 550 |
+| last180d | 2026-05-21 | 7 | 307 | 225 | 153 | 171 | 988 |
+| 360d | 2025-11-22 | 16 | 464 | 289 | 252 | 243 | 1448 |
+| last720d | 2024-11-27 | 28 | 731 | 338 | 518 | 351 | 2363 |
 
 ## Release assets
 
@@ -123,7 +123,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/rclone). **47** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
+Reported by **253** distros on [repology.org](https://repology.org/project/rclone). **48** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -137,7 +137,7 @@ Reported by **251** distros on [repology.org](https://repology.org/project/rclon
 | Nix unstable | `1.76.0` | ✅ latest |
 | Void | `1.76.0` | ✅ latest |
 | Alpine edge | `1.75.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.75.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.76.0` | ✅ latest |
 
 ## Improve this data
 
@@ -148,4 +148,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:15:41Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:02:08Z._
