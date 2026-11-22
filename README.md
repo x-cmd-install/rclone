@@ -14,11 +14,11 @@ x install rclone
 
 ## Code insight
 
-Total: **423,094** lines of code across **1430** files in the top 5 languages.
+Total: **423,360** lines of code across **1432** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 323,560 | 42,982 | 37,701 | 1224 |
+| Go | 323,826 | 43,019 | 37,723 | 1226 |
 | Html | 87,756 | 220 | 261 | 53 |
 | Yaml | 4,142 | 222 | 13 | 135 |
 | Python | 1,561 | 91 | 205 | 15 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 61,144 · **Forks**: 5,711 · **Open issues**: 6,376 · **Contributors**: 1,103
+- **Stars**: 61,164 · **Forks**: 5,712 · **Open issues**: 6,383 · **Contributors**: 1,104
 
 ## Totals (cumulative)
 
-- **Releases**: 134 · **Merged PRs**: 2707 · **Open PRs**: 364 · **Closed issues**: 5398 · **Open issues**: 978 · **Commits**: 10805
+- **Releases**: 134 · **Merged PRs**: 2710 · **Open PRs**: 368 · **Closed issues**: 5399 · **Open issues**: 984 · **Commits**: 10816
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 1 | 49 | 87 | 18 | 61 | 140 |
-| last60d | 2026-09-22 | 2 | 128 | 135 | 53 | 93 | 352 |
-| 90d | 2026-08-23 | 3 | 183 | 171 | 75 | 119 | 568 |
-| last180d | 2026-05-25 | 6 | 307 | 227 | 160 | 163 | 1006 |
-| 360d | 2025-11-26 | 16 | 465 | 288 | 259 | 232 | 1466 |
-| last720d | 2024-12-01 | 28 | 733 | 338 | 524 | 343 | 2385 |
+| 30d | 2026-10-23 | 1 | 48 | 89 | 18 | 66 | 92 |
+| last60d | 2026-09-23 | 2 | 131 | 137 | 53 | 100 | 302 |
+| 90d | 2026-08-24 | 3 | 185 | 174 | 75 | 126 | 513 |
+| last180d | 2026-05-26 | 6 | 310 | 231 | 159 | 170 | 988 |
+| 360d | 2025-11-27 | 16 | 467 | 292 | 259 | 239 | 1471 |
+| last720d | 2024-12-02 | 28 | 735 | 342 | 522 | 350 | 2396 |
 
 ## Release assets
 
@@ -149,4 +149,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:30:57Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:15:26Z._
