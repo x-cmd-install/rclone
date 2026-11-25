@@ -48,22 +48,22 @@ x install rclone
 
 ## 流行度
 
-- **Star**: 61,222 · **Fork**: 5,732 · **开放 issue**: 6,396 · **贡献者**: 1,105
+- **Star**: 61,249 · **Fork**: 5,737 · **开放 issue**: 6,397 · **贡献者**: 1,105
 
 ## 累计统计
 
-- **发布数**: 134 · **已合并 PR**: 2715 · **开放 PR**: 377 · **已关闭 issue**: 5402 · **开放 issue**: 994 · **提交数**: 10826
+- **发布数**: 134 · **已合并 PR**: 2715 · **开放 PR**: 383 · **已关闭 issue**: 5403 · **开放 issue**: 994 · **提交数**: 10826
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 51 | 97 | 20 | 76 | 102 |
-| last60d | 2026-09-25 | 2 | 130 | 142 | 54 | 109 | 312 |
-| 90d | 2026-08-26 | 3 | 188 | 180 | 75 | 134 | 523 |
-| last180d | 2026-05-28 | 6 | 312 | 237 | 159 | 180 | 998 |
-| 360d | 2025-11-29 | 16 | 472 | 301 | 261 | 249 | 1481 |
-| last720d | 2024-12-04 | 28 | 738 | 350 | 522 | 357 | 2404 |
+| 30d | 2026-10-26 | 1 | 50 | 103 | 19 | 76 | 102 |
+| last60d | 2026-09-26 | 2 | 127 | 144 | 53 | 110 | 312 |
+| 90d | 2026-08-27 | 3 | 185 | 184 | 75 | 133 | 523 |
+| last180d | 2026-05-29 | 6 | 311 | 243 | 157 | 181 | 998 |
+| 360d | 2025-11-30 | 16 | 472 | 307 | 261 | 250 | 1481 |
+| last720d | 2024-12-05 | 28 | 738 | 356 | 521 | 357 | 2402 |
 
 ## Release 资产
 
@@ -121,25 +121,6 @@ x install rclone
 | [SHA256SUMS](https://github.com/rclone/rclone/releases/download/v1.76.0/SHA256SUMS) | 4.7 KiB | `other` |
 | [version.txt](https://github.com/rclone/rclone/releases/download/v1.76.0/version.txt) | 15 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/rclone) 上共有 **254** 个发行版报告此项目。**51** 个 ✅ 已是最新上游版本，**133** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.75.2` | ⚠️ outdated |
-| Debian 14 | `1.75.2` | ⚠️ outdated |
-| Debian 13 | `1.60.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.60.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.60.1` | ⚠️ outdated |
-| Arch | `1.76.0` | ✅ latest |
-| Homebrew | `1.76.0` | ✅ latest |
-| Fedora rawhide | `1.75.2` | ⚠️ outdated |
-| Nix unstable | `1.76.0` | ✅ latest |
-| Void | `1.76.0` | ✅ latest |
-| Alpine edge | `1.75.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.76.0` | ✅ latest |
-
 ## 改进这些数据
 
 rclone 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `rclone` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -149,4 +130,4 @@ rclone 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:38:30Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T08:55:51Z._

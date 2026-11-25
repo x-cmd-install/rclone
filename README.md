@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 61,222 · **Forks**: 5,732 · **Open issues**: 6,396 · **Contributors**: 1,105
+- **Stars**: 61,249 · **Forks**: 5,737 · **Open issues**: 6,397 · **Contributors**: 1,105
 
 ## Totals (cumulative)
 
-- **Releases**: 134 · **Merged PRs**: 2715 · **Open PRs**: 377 · **Closed issues**: 5402 · **Open issues**: 994 · **Commits**: 10826
+- **Releases**: 134 · **Merged PRs**: 2715 · **Open PRs**: 383 · **Closed issues**: 5403 · **Open issues**: 994 · **Commits**: 10826
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 51 | 97 | 20 | 76 | 102 |
-| last60d | 2026-09-25 | 2 | 130 | 142 | 54 | 109 | 312 |
-| 90d | 2026-08-26 | 3 | 188 | 180 | 75 | 134 | 523 |
-| last180d | 2026-05-28 | 6 | 312 | 237 | 159 | 180 | 998 |
-| 360d | 2025-11-29 | 16 | 472 | 301 | 261 | 249 | 1481 |
-| last720d | 2024-12-04 | 28 | 738 | 350 | 522 | 357 | 2404 |
+| 30d | 2026-10-26 | 1 | 50 | 103 | 19 | 76 | 102 |
+| last60d | 2026-09-26 | 2 | 127 | 144 | 53 | 110 | 312 |
+| 90d | 2026-08-27 | 3 | 185 | 184 | 75 | 133 | 523 |
+| last180d | 2026-05-29 | 6 | 311 | 243 | 157 | 181 | 998 |
+| 360d | 2025-11-30 | 16 | 472 | 307 | 261 | 250 | 1481 |
+| last720d | 2024-12-05 | 28 | 738 | 356 | 521 | 357 | 2402 |
 
 ## Release assets
 
@@ -121,25 +121,6 @@ Lowest-scoring checks:
 | [SHA256SUMS](https://github.com/rclone/rclone/releases/download/v1.76.0/SHA256SUMS) | 4.7 KiB | `other` |
 | [version.txt](https://github.com/rclone/rclone/releases/download/v1.76.0/version.txt) | 15 B | `other` |
 
-## Distribution status
-
-Reported by **254** distros on [repology.org](https://repology.org/project/rclone). **51** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.75.2` | ⚠️ outdated |
-| Debian 14 | `1.75.2` | ⚠️ outdated |
-| Debian 13 | `1.60.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.60.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.60.1` | ⚠️ outdated |
-| Arch | `1.76.0` | ✅ latest |
-| Homebrew | `1.76.0` | ✅ latest |
-| Fedora rawhide | `1.75.2` | ⚠️ outdated |
-| Nix unstable | `1.76.0` | ✅ latest |
-| Void | `1.76.0` | ✅ latest |
-| Alpine edge | `1.75.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.76.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `rclone` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -149,4 +130,4 @@ Install metadata for rclone lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:38:29Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:55:50Z._
